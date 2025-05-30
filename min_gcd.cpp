@@ -33,7 +33,7 @@ int main() {
             }
             continue;
         }
-
+//
         vector<long long> v;
         for (int i = 1; i < n; i++) {
             if (arr[i] % arr[0] == 0) {
