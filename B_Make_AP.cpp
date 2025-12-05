@@ -23,6 +23,8 @@ int main() {
         if (z > 0 && z % c == 0) ok = true;
 
         cout << (ok ? "YES" : "NO") << "\n";
+
+        
     }
     return 0;
 }
