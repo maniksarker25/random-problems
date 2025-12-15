@@ -11,6 +11,7 @@ int main()
     string s;
     cin >> s;
 
+
     map<string,int>mp;
     for(int i = 0;i<n-1;i++){
         string twoGram = "";
@@ -26,9 +27,14 @@ int main()
             mx = it.second;
             ans = it.first;
         }
-
     }
+
+
+    
+
+
     cout << ans << endl;
+
 
     
     
