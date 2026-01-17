@@ -17,6 +17,7 @@ int main()
         z_sum += z;
     }
 
+
     if(x_sum == 0 && y_sum == 0 && z_sum == 0){
         cout << "YES"<<endl;
     }

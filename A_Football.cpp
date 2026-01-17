@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
+    ios::sync_with_stdio(false); 
     cin.tie(nullptr);
  
     
@@ -19,8 +19,9 @@ int main()
             teamA = s;
         }
         else if( teamA !=s){
-            teamB = s;
+              teamB = s;
         }
+        
         if(s == teamA){
             teamAGoal++;
         }
